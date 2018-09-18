@@ -73,7 +73,13 @@ section {
 
 section.success {
   color: #0a0f13;
-  background: #4ce8c8; }
+  background: #4ce8c8;
+}
+
+section.success a{
+    color: #0a0f13;
+    
+}
 
 @media (max-width: 767px) {
   section {
@@ -164,7 +170,8 @@ header.masthead {
   background: #4ce8c8; }
 header.masthead p a {
   color: #0a0f13;
-    text-decoration: underline}
+    
+    }
 header.masthead p a:hover {
     color: white;
     outline: none; }
